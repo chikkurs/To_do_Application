@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<form method="post">
+  {% csrf_token %}
+  <p style="color:LavenderBlush":>Are You Completed The Task...?</p><br>
+  <button type="submit" class="btn btn-danger">Completed</button>
+<!--  <input type="submit" class="btn btn-danger">-->
+</form>
+
+
+{% endblock %}
